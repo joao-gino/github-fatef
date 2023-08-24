@@ -2,11 +2,7 @@
 
 $notas = array(7.5, 8.5, 9.5, 10);
 
-$total = 0;
-
-foreach($notas as $nota) {
-    $total += $nota;
-}
+$total = array_sum($notas);
 
 $media = $total / count($notas);
 
